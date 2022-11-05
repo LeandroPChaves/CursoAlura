@@ -9,9 +9,18 @@
 
 //----------------------------------------------------------------------------------
 
-let nomes = ["ana Julia", "Caio vinicius", "BIA silva"];
+// let nomes = ["ana Julia", "Caio vinicius", "BIA silva"];
 
-let nomesMauisculos = nomes.map((nomes) => nomes.toUpperCase() );
+// let nomesMauisculos = nomes.map((nomes) => nomes.toUpperCase() );
+
+// console.log (nomesMauisculos);
+
+//---------------------------------------------------------------------------------
+
+const nomes = ["ana Julia", "Caio vinicius", "BIA silva"];
+
+const nomesMauisculos = nomes.map ((nome) => {
+  return nome.toUpperCase();
+})
 
 console.log (nomesMauisculos);
-
